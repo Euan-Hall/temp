@@ -31,7 +31,7 @@ CREATE TABLE `forum` (
   `postid` int(11) NOT NULL,
   `title` varchar(30) NOT NULL,
   `contents` text NOT NULL,
-  `author_id` int(11) NOT NULL,
+  `author_id` varchar(11) NOT NULL,
   `post_date` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
