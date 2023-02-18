@@ -250,7 +250,7 @@ ALTER TABLE `users`
 -- Constraints for table `forum`
 --
 ALTER TABLE `forum`
-  ADD CONSTRAINT `forum_ibfk_1` FOREIGN KEY (`author_id`) REFERENCES `users` (`user_id`);
+  ADD CONSTRAINT `forum_ibfk_1` FOREIGN KEY (`author_id`) REFERENCES `users` (`user_name`);
 
 --
 -- Constraints for table `projects2`
